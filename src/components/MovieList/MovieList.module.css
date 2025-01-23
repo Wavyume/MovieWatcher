@@ -1,0 +1,22 @@
+.post-list {
+  font-weight: 900;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.movie-list {
+  flex: 0 0 calc(100% / 7);
+  box-sizing: border-box;
+  display: flex;
+  height: 35vh;
+  gap: 20px;
+}
+.slider-track {
+  flex-grow: 1;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}

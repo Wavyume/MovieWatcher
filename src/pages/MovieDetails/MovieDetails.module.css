@@ -1,0 +1,14 @@
+.info-wrapper {
+  padding: 8rem 4rem;
+  display: flex;
+}
+
+.info {
+  max-width: 40%;
+}
+
+.circle {
+  font-size: 1em;
+  vertical-align: middle;
+  margin: 0 8px;
+}
