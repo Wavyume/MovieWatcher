@@ -1,6 +1,8 @@
 # MovieWatcher
-movie information website (under development)
+movie information website (under development)<br>
 technologies used:
-React
-Redux
-Framer-motion
+<ul>
+<li>React</li>
+<li>Redux</li>
+<li>Framer-motion</li>
+</ul>
