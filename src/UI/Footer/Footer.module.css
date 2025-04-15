@@ -1,0 +1,27 @@
+.footer {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-wrapper {
+  /* border: 1px solid blue; */
+  display: flex;
+  width: 9rem;
+  justify-content: space-between;
+}
+.icon {
+  color: rgb(214, 214, 214);
+  font-size: 1.5rem;
+}
+.icon:hover {
+  color: rgb(192, 0, 0);
+  transition: 0.5s;
+}
+.copyright {
+  color: rgb(214, 214, 214);
+  font-size: 0.8rem;
+}

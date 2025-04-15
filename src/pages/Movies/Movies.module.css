@@ -1,0 +1,18 @@
+.movies-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.movies-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+  padding: 0.5rem 0;
+}
+
+.movies-block h2 {
+  font-weight: 800;
+}

@@ -1,0 +1,48 @@
+.similar-movies-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.8rem;
+  overflow-x: auto;
+}
+
+.similar-movies {
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  max-width: 111rem;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.movies-list {
+  display: flex;
+}
+.card {
+  flex: 0 0 auto;
+  width: clamp(9.5rem, 25vw, 14rem);
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.button-prev {
+  left: 0;
+}
+.button-next {
+  right: 0;
+}
+.similar-movies::-webkit-scrollbar {
+  display: none;
+}
+.similar-movies-wrapper::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 480px) {
+  .button {
+    display: none;
+  }
+}

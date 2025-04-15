@@ -1,0 +1,50 @@
+.post {
+  padding: 1.25rem;
+  color: white;
+}
+.post img {
+  width: 12.5rem;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.3rem 0.1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  color: rgb(199, 199, 199);
+  gap: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.rating > div:first-child {
+  margin-right: 0.4rem;
+}
+
+.icon {
+  color: rgb(231, 231, 33);
+}
+
+@media (max-width: 768px) {
+  .post img {
+    width: 8.5rem;
+  }
+  .post {
+    padding: 0;
+  }
+  .post > div {
+    font-size: 0.8rem;
+  }
+  .info {
+    flex-direction: column;
+  }
+}

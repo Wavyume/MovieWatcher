@@ -1,0 +1,78 @@
+.casts-list-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 2.5rem;
+  overflow-x: auto;
+}
+
+.casts-list {
+  position: relative;
+  overflow: hidden;
+  height: fit-content;
+  max-width: 107rem;
+  overflow-x: auto;
+}
+
+.casts-slider {
+  display: flex;
+  gap: clamp(1rem, 4vw, 3.5rem);
+  width: 95%;
+  margin: 0 auto;
+}
+
+.cast-card {
+  flex: 0 0 auto;
+  width: clamp(7rem, 6vw, 7rem);
+  text-align: center;
+}
+
+.cast-name {
+  font-size: clamp(0.8rem, 1vw, 1rem);
+  font-weight: 700;
+}
+
+.cast-character {
+  font-size: clamp(0.7rem, 1vw, 0.8rem);
+  color: #919191;
+}
+
+.cast-photo {
+  border-radius: 50%;
+  width: clamp(5.5rem, 7vw, 7rem);
+  object-fit: cover;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.button-prev {
+  left: 0;
+}
+.button-next {
+  right: 0;
+}
+.casts-list::-webkit-scrollbar {
+  display: none;
+}
+.casts-slider::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 480px) {
+  .button {
+    display: none;
+  }
+  .casts-list-wrapper {
+    justify-content: start;
+    padding: 0 1rem;
+  }
+  .casts-slider {
+    gap: 1rem;
+  }
+}
+@media (max-width: 768px) {
+}
